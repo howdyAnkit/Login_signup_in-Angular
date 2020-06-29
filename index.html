@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Include the AngularJS library -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+</head>
+
+<body ng-app="AppMarketApp">
+
+    <div class="container right-panel-active" id="container" ng-controller="MainController">
+        <div class=" sign-up-container" ng-repeat="app in apps">
+            <form id="form" class="form">
+                <div class="form-control">
+                    <app-info info="app"></app-info>
+                </div>
+
+                
+            </form>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <img src="img/undraw_gift_box_byy3.svg" style="width: 45%; padding-top: 80px; padding-left: 25px;">
+            </div>
+        </div>
+
+
+    <!-- Modules -->
+    <script src="js/script.js"></script>
+    <script src="js/app.js"></script>   
+    
+    <!-- Controllers -->
+    <script src="js/controllers/MainController.js"></script>
+    <!-- Directives -->
+    <script src="js/directives/appInfo.js"></script>
+    <!-- <script src="js/directives/installApp.js"></script> -->
+</body>
+
+</html>
