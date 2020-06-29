@@ -1,25 +1,15 @@
 app.controller('MainController', ['$scope', function ($scope) {
-    $scope.apps = {
-        Fusername: "",
-        Lusername: "",
-        username: "",
-        password: "",
-        bod: "",
-        country: ""
-    };
 
     $scope.image ={
          icon: 'img/cherry-50.png',
-         
+         header: "Yayy, you're back",
+        para: 'Login and lets setup your ideas'
     };
 
-    $scope.signin ={
-        Fusername: '',
-        password: '',
-    }
-
     $scope.signup = {
-        icon: 'img/message-sent.png'
+        icon: 'img/message-sent.png',
+        header: 'Hello, Friend!',
+        para: 'Enter your personal details and start journey with us'
     };
 
 
