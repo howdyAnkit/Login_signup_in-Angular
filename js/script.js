@@ -1,5 +1,19 @@
 //style for Validation
 /*jshint esversion: 6 */
+
+const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+
+signUpButton.addEventListener('click', () => {
+    container.classList.add("right-panel-active");
+});
+
+signInButton.addEventListener('click', () => {
+    container.classList.remove("right-panel-active");
+});
+
+//
 const form = document.getElementById('form');
 const username = document.getElementById('username');
 const email = document.getElementById('email');

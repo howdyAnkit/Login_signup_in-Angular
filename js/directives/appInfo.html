@@ -3,11 +3,13 @@
 <p class="developer">{{ info.developer }}</p>
 <p class="price">{{ info.price | currency }}</p> -->
 <!-- <link rel="stylesheet" href="../../css/main.css"> -->
-<label class="username" for="username">First name</label>
+
+
+<label class="Fusername" for="username">First name</label>
 <input type="text" id="Fname" placeholder="Enter First name">
 <small>Error Message</small>
 
-<label class="username" for="username">Last name</label>
+<label class="Lusername" for="username">Last name</label>
 <input type="text" id="Lname" placeholder="Enter Last name">
 <small>Error Message</small>
 
@@ -23,17 +25,17 @@
 <input type="text" id="password" placeholder="Enter your password">
 <small> Error Message</small> -->
 
-<label for="password">Password</label>
+<label class="password" for="password">Password</label>
 <input type="text" id="password" placeholder="Enter your password">
 <small> Error Message</small>
 
-<label for="bod">Select Birth-date</label>
+<label class="bod" for="bod">Select Birth-date</label>
 <input type="date" name="begin" 
         placeholder="dd-mm-yyyy" value=""
         min="1997-01-01" max="2030-12-31" style="padding-top: 2px;"> 
 
 
-<select name="countryCode" id="" style="border: 2px solid#f0f0f0; display: block;">
+<select class="country" name="countryCode" id="" style="border: 2px solid#f0f0f0; display: block;">
   <option data-countryCode="GB" value="44" Selected>UK (+44)</option>
   <option data-countryCode="US" value="1">USA (+1)</option>
   <optgroup label="Other countries">
@@ -254,5 +256,5 @@
   </optgroup>
 </select>
 
-<button>Submit</button>
+<button class="signupButton">Submit</button>
 
