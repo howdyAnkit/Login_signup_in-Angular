@@ -1,0 +1,19 @@
+{
+  "name": "login_signup_in-angular",
+  "version": "1.0.1",
+  "description": "A modern Login and Signup UI-form build with Angular and Vanilla Javascript.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howdyAnkit/Login_signup_in-Angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/howdyAnkit/Login_signup_in-Angular/issues"
+  },
+  "homepage": "https://github.com/howdyAnkit/Login_signup_in-Angular#readme"
+}
